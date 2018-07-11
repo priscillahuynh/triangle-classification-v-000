@@ -13,7 +13,7 @@ class Triangle
 
   def triangle
 
-  end 
+  end
   # class TriangleError < Standard Error
   #
   # end
