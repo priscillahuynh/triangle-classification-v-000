@@ -8,10 +8,10 @@ class Triangle
   end
 
   def self.kind
-    
+
   end
 
-  class TriangleError < Standard Error
-    
-  end
+  # class TriangleError < Standard Error
+  # 
+  # end
 end
