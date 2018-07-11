@@ -10,9 +10,9 @@ class Triangle
   def kind(side_one,side_two,side_three)
     if side_one==side_two && side_two==side_three && side_one>0
       return equilateral
-    elsif 
-       
-    
+    elsif
+
+    end
   end
 
   # class TriangleError < Standard Error
