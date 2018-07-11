@@ -7,11 +7,11 @@ class Triangle
     @side_three=side_three
   end
 
-  def self.kind
+  def kind
 
   end
 
-  def triangle 
+  def triangle
 
   end 
   # class TriangleError < Standard Error
