@@ -8,10 +8,10 @@ class Triangle
   end
 
   def kind(a,b,c)
-    if a==b && b==c && a>0
+    if a == b && b == c && a > 0
        return equilateral
     elsif
-      a!=b && b !=c && a!=c
+      a != b && b != c && a != c
       return scalene
     else
       return isosceles
