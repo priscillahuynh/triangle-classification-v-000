@@ -1,14 +1,14 @@
 class Triangle
-  attr_accessor :side_one,:side_two,:side_three
+  attr_accessor :a,:b,:c
 
-  def initialize(side_one, side_two, side_three)
-    @side_one=side_one
-    @side_two=side_two
-    @side_three=side_three
+  def initialize(a, b, c)
+    @a=a
+    @b=b
+    @c=c
   end
 
-  def kind(side_one,side_two,side_three)
-    if side_one==side_two && side_two==side_three && side_one>0
+  def kind(a,b,c)
+    if a==b && b==c && a>0
        return equilateral
     elsif
       side_one!=side_two && side_two !=side_three && side_one!=side_three
