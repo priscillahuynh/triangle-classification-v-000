@@ -11,7 +11,7 @@ class Triangle
     if a==b && b==c && a>0
        return equilateral
     elsif
-      side_one!=side_two && side_two !=side_three && side_one!=side_three
+      a!=b && b !=c && a!=c
       return scalene
     else
       return isosceles
