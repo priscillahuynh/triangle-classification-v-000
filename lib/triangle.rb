@@ -7,8 +7,10 @@ class Triangle
     @side_three=side_three
   end
 
-  def kind
-
+  def kind(side_one,side_two,side_three)
+    if side_one==side_two && side_two==side_three
+      return equilateral
+    end 
   end
 
   # class TriangleError < Standard Error
