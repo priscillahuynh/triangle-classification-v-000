@@ -18,6 +18,12 @@ class Triangle
     end
   end
 
+  def valid?
+    a > 0
+    b > 0
+    c > 0
+  end 
+
   # class TriangleError < Standard Error
   #
   # end
